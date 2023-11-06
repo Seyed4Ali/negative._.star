@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "play-rg";
+    src: url(font/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "lato-b";
+    src: url(font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "mons-semib";
+    src: url(font/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "mons-md";
+    src: url(font/Montserrat-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    background-color: #131212;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 105%;
+}
+
+.about .div {
+    background-color: #131212;
+    width: 1280px;
+    height: 720px;
+    position: relative;
+}
+
+.about .overlap-group {
+    position: absolute;
+    width: 1175px;
+    height: 586px;
+    top: 134px;
+    left: 105px;
+}
+
+.about .man-working-night {
+    position: absolute;
+    width: 804px;
+    height: 586px;
+    top: 0;
+    left: 371px;
+    object-fit: cover;
+}
+
+.about .body {
+    position: absolute;
+    width: 541px;
+    height: 328px;
+    top: 42px;
+    left: 0;
+}
+
+.about .text-wrapper {
+    position: absolute;
+    width: 536px;
+    top: 0;
+    left: 1px;
+    font-family: play-rg, Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 72px;
+}
+
+.about .sign {
+    display: flex;
+    width: 132px;
+    height: 54px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 13px 24px;
+    position: absolute;
+    top: 274px;
+    left: 0;
+    background-color: #ffffff;
+}
+
+.about .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: 5px;
+    font-family: lato-b, Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.about .p {
+    position: absolute;
+    width: 528px;
+    top: 176px;
+    left: 0;
+    opacity: 0.8;
+    font-family: lato-b, Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.about .text-wrapper-3 {
+    position: absolute;
+    top: 47px;
+    left: 117px;
+    font-family: mons-semib, Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.about .navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+    position: absolute;
+    top: 48px;
+    left: 750px;
+}
+
+.about .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: mons-md, Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
