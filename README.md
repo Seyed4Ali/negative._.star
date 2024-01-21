@@ -5,6 +5,7 @@ Portfolio of website design and application development and database
 نمونه کار طراحی وب سایت و توسعه اپلیکیشن و پایگاه داده
 
 نکته: برای دانلود اپلیکیشن کد ها فایل rar هر برنامه را دانلود کرده و از حالت زیپ شده در بیاورید.
+همچنین برای دیدن نمونه کارِ جنگو به ریپازیتوری book shelf مراجعه فرمابید
 
 ## Contact with me 
 
